@@ -15,6 +15,9 @@ También nos dijo que no era requerido, pero nos iba a pagar un importante bono 
 
 Como el cliente no sabe de desarrollo nos pidió que despleguemos nuestra aplicación en algún lado y le mandemos un link para ver el progreso.
 
+Nos dejó este ejemplo de como debería quedar:
+![Demo](./src/assets/demo.png "Demo")
+
 ## Corriendo el proyecto
 ```bash
 # Instalar dependencias del proyecto

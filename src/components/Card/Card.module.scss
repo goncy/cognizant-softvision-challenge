@@ -1,0 +1,18 @@
+.content {
+    background-color: white;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 16px;
+    color: black;
+}
+
+.comment {
+    margin-top: 4px;
+    font-size: 14px;
+    opacity: .7;
+}

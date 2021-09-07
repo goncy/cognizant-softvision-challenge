@@ -1,0 +1,25 @@
+.wrapper {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.316);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    input, textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

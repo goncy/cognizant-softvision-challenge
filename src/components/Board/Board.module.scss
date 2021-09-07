@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: rgb(111, 179, 232);
+    height: calc(100vh - 64px);
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+.content {
+    margin-top: 16px;
+    display: flex;
+    gap: 0 20px;
+}
+
+.reload {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 8px 8px;
+    border-radius: 4px;
+}

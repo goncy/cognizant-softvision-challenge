@@ -1,14 +1,17 @@
 import React from "react";
 
 import logo from "../assets/logo.png";
+import Board from "../components/Board";
 
 import styles from "./App.module.scss";
 
 function App() {
   return (
     <main>
-      <img alt="Softvision" src={logo} width={320} />
-      <h1 className={styles.title}>Lets get this party started</h1>
+      <nav className={styles.nav}>
+        <img alt="Softvision" src={logo} width={120} />
+      </nav>
+      <Board />
     </main>
   );
 }

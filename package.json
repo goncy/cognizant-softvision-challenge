@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-hook-form": "^7.15.0",
     "sass": "^1.38.1"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 
 import {Candidate} from "../../types/candidate";
 import Card from "../Card";
@@ -24,8 +24,10 @@ export default function Column({
 }: Props) {
   return (
     <div className={styles.column}>
-      <h2 className={styles.title}>{name}</h2>
-      <div className={styles.content}>
+      <h2 className={styles.title} role="heading">
+        {name}
+      </h2>
+      <div className={styles.content} data-testid="list">
         {candidates.length ? (
           candidates.map((candidate: Candidate) => (
             <Card

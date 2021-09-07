@@ -5,10 +5,14 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "cypress": "cypress open"
   },
   "dependencies": {
+    "@cypress/react": "^5.9.4",
+    "@cypress/webpack-dev-server": "^1.5.0",
     "@types/jest": "^27.0.1",
+    "cypress": "^8.3.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.1.0",
     "react": "^17.0.0",

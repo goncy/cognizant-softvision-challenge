@@ -43,7 +43,7 @@ export default function Column({
         )}
       </div>
       {firstColumn && (
-        <button className={styles.add} onClick={newCandidate}>
+        <button className={styles.add} data-cy="add-candidate" onClick={newCandidate}>
           Agregar Candidato
         </button>
       )}

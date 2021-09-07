@@ -14,6 +14,7 @@ export default {
 
   // The directory where Jest should output its coverage files
   coverageDirectory: "coverage",
+  modulePathIgnorePatterns: ["<rootDir>/cypress"],
   preset: "ts-jest",
   testEnvironment: "jsdom",
   transform: {

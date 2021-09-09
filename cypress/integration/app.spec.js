@@ -37,10 +37,10 @@ describe("Integration Testing", () => {
   // });
 
   it("add new candidate and verify it is in first column", () => {
-    cy.get(`[data-cy=add-candidate]`).click();
-    cy.get("[data-cy=new-candidate-form]").find("input[type=text]").type("Mark");
-    cy.get("[data-cy=new-candidate-form]").find("textarea").type("Good candidate");
-    cy.get("[data-cy=new-candidate-form]").find("[type=submit]").click();
+    cy.getById("add-candidate").click();
+    cy.getById("new-candidate-form").find("input[type=text]").type("Mark");
+    cy.getById("new-candidate-form").find("textarea").type("Good candidate");
+    cy.getById("new-candidate-form").find("[type=submit]").click();
     cy.get(`[data-testid=list] > div:not([class*=noContent])`).should("have.length", 3);
     cy.get(`[data-testid=list]`).first().children().should("have.length", 1);
     // cy.contains("Pay electric bill").parents("li").should("have.class", "completed");
